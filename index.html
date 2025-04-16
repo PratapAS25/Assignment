@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliteBuild Construction | Premium Building Solutions</title>
+    <meta name="description" content="Professional construction and remodeling services with 25+ years experience">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="js/main.js" as="script">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-logo">
+            <img src="assets/logo-icon.svg" alt="EliteBuild Logo" width="80">
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skip to Content Link -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <!-- Logo -->
+                <a href="/" class="logo">
+                    <img src="assets/logo-full.svg" alt="EliteBuild Construction" width="180">
+                </a>
+                
+                <!-- Main Navigation -->
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#testimonials">Clients</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <!-- Header CTA -->
+                <div class="header-cta">
+                    <a href="tel:+15551234567" class="phone-link">
+                        <i class="fas fa-phone-alt"></i> (555) 123-4567
+                    </a>
+                    <a href="#contact" class="btn btn-primary">Free Estimate</a>
+                </div>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Clients</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-cta">
+            <a href="tel:+15551234567" class="btn btn-block">
+                <i class="fas fa-phone-alt"></i> Call Now
+            </a>
+        </div>
+    </div>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-background">
+                <!-- Video background with image fallback -->
+                <video autoplay muted loop playsinline poster="images/hero-poster.jpg">
+                    <source src="assets/hero-video.mp4" type="video/mp4">
+                </video>
+                <div class="overlay"></div>
+            </div>
+            
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Building Your Vision, Crafting Perfection</h1>
+                    <p class="hero-subtitle">Premium construction services with unmatched quality and attention to detail</p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary btn-large">Get Started</a>
+                        <a href="#projects" class="btn btn-secondary btn-large">View Our Work</a>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#about" class="scroll-down" aria-label="Scroll down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </section>
+
+        <!-- Stats Bar -->
+        <section class="stats-bar">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="25">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="350">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="98">0</div>
+                        <div class="stat-label">% Satisfaction</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="50">0</div>
+                        <div class="stat-label">Awards Won</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About EliteBuild</h2>
+                    <p class="section-subtitle">Building excellence since 1998</p>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-content">
+                        <h3>Our Story</h3>
+                        <p>Founded in 1998 by John and Sarah Thompson, EliteBuild has grown from a small local contractor to one of the region's most trusted construction firms. Our commitment to quality craftsmanship and customer satisfaction has remained unchanged throughout our journey.</p>
+                        
+                        <h3>Our Approach</h3>
+                        <p>We believe in transparent communication, meticulous planning, and using only the highest quality materials. Every project is treated with the same level of care, whether it's a small renovation or a large commercial development.</p>
+                        
+                        <div class="signature">
+                            <img src="images/signature.png" alt="Founder's Signature" width="150">
+                            <p>John Thompson<br><span>Founder & CEO</span></p>
+                        </div>
+                    </div>
+                    
+                    <div class="about-image">
+                        <div class="image-container">
+                            <img src="images/about-team.jpg" alt="Our Team" class="main-image">
+                            <div class="experience-badge">
+                                <span>25+</span>
+                                <small>Years Experience</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Services</h2>
+                    <p class="section-subtitle">Comprehensive construction solutions</p>
+                </div>
+                
+                <div class="services-tabs">
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" data-tab="residential">Residential</button>
+                        <button class="tab-btn" data-tab="commercial">Commercial</button>
+                        <button class="tab-btn" data-tab="renovation">Renovation</button>
+                    </div>
+                    
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="residential">
+                            <div class="services-grid">
+                                <div class="service-card">
+                                    <div class="service-icon">
+                                        <i class="fas fa-home"></i>
+                                    </div>
+                                    <h3>Custom Home Building</h3>
+                                    <p>From concept to completion, we build dream homes tailored to your vision and lifestyle.</p>
+                                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                                
+                                <div class="service-card">
+                                    <div class="service-icon">
+                                        <i class="fas fa-layer-group"></i>
+                                    </div>
+                                    <h3>Home Additions</h3>
+                                    <p>Expand your living space with seamless additions that match your existing structure.</p>
+                                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                                
+                                <div class="service-card">
+                                    <div class="service-icon">
+                                        <i class="fas fa-vector-square"></i>
+                                    </div>
+                                    <h3>Architectural Design</h3>
+                                    <p>Collaborative design process with our in-house architects and designers.</p>
+                                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-pane" id="commercial">
+                            <!-- Commercial services content -->
+                        </div>
+                        
+                        <div class="tab-pane" id="renovation">
+                            <!-- Renovation services content -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cta-section">
+                    <div class="cta-content">
+                        <h3>Ready to start your project?</h3>
+                        <p>Get a free, no-obligation quote from our experts.</p>
+                    </div>
+                    <div class="cta-action">
+                        <a href="#contact" class="btn btn-primary btn-large">Get Your Free Quote</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Projects</h2>
+                    <p class="section-subtitle">See our work in action</p>
+                </div>
+                
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="residential">Residential</button>
+                    <button class="filter-btn" data-filter="commercial">Commercial</button>
+                    <button class="filter-btn" data-filter="renovation">Renovation</button>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project items will be loaded via JavaScript -->
+                </div>
+                
+                <div class="view-more">
+                    <a href="projects.html" class="btn btn-outline">View All Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="section process-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Process</h2>
+                    <p class="section-subtitle">How we bring your vision to life</p>
+                </div>
+                
+                <div class="process-steps">
+                    <div class="process-item">
+                        <div class="process-number">01</div>
+                        <h3>Consultation</h3>
+                        <p>We listen to your needs and assess the project requirements.</p>
+                    </div>
+                    
+                    <div class="process-item">
+                        <div class="process-number">02</div>
+                        <h3>Planning</h3>
+                        <p>Detailed blueprints and material selections.</p>
+                    </div>
+                    
+                    <div class="process-item">
+                        <div class="process-number">03</div>
+                        <h3>Approval</h3>
+                        <p>Finalizing designs and obtaining permits.</p>
+                    </div>
+                    
+                    <div class="process-item">
+                        <div class="process-number">04</div>
+                        <h3>Construction</h3>
+                        <p>Quality craftsmanship with regular updates.</p>
+                    </div>
+                    
+                    <div class="process-item">
+                        <div class="process-number">05</div>
+                        <h3>Completion</h3>
+                        <p>Final walkthrough and project handover.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Client Testimonials</h2>
+                    <p class="section-subtitle">What our clients say about us</p>
+                </div>
+                
+                <div class="testimonials-slider">
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"EliteBuild transformed our outdated home into a modern masterpiece. Their attention to detail and communication throughout the process was exceptional."</p>
+                            <div class="client-info">
+                                <img src="images/clients/client1.jpg" alt="Michael Johnson">
+                                <div>
+                                    <h4>Michael Johnson</h4>
+                                    <span>Home Renovation Project</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Additional testimonial slides -->
+                </div>
+                
+                <div class="testimonials-cta">
+                    <p>Ready to join our satisfied clients?</p>
+                    <a href="#contact" class="btn btn-primary">Start Your Project</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Get In Touch</h2>
+                        <p>Have questions or ready to start your project? Contact us today for a free consultation.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Our Office</h4>
+                                    <address>123 Construction Ave, Building City, BC 12345</address>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Call Us</h4>
+                                    <a href="tel:+15551234567">(555) 123-4567</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Email Us</h4>
+                                    <a href="mailto:info@elitebuild.com">info@elitebuild.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Working Hours</h4>
+                                    <p>Monday - Friday: 8:00 AM - 5:00 PM<br>
+                                    Saturday: 9:00 AM - 2:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Send Us a Message</h3>
+                        <form id="projectInquiryForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required>
+                                <label for="name">Your Name</label>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required>
+                                <label for="email">Email Address</label>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="tel" id="phone" name="phone">
+                                <label for="phone">Phone Number</label>
+                            </div>
+                            
+                            <div class="form-group">
+                                <select id="service" name="service" required>
+                                    <option value="" disabled selected></option>
+                                    <option value="new-construction">New Construction</option>
+                                    <option value="renovation">Renovation</option>
+                                    <option value="commercial">Commercial Project</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <label for="service">Service Needed</label>
+                            </div>
+                            
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="4" required></textarea>
+                                <label for="message">Project Details</label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-block">Submit Inquiry</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215209179308!2d-73.9878449242395!3d40.74844097138962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1689876423585!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter-section">
+            <div class="container">
+                <div class="newsletter-inner">
+                    <div class="newsletter-content">
+                        <h3>Subscribe to Our Newsletter</h3>
+                        <p>Get the latest construction tips, project showcases, and special offers.</p>
+                    </div>
+                    
+                    <form class="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" placeholder="Your email address" required>
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <img src="assets/logo-light.svg" alt="EliteBuild Construction" width="160">
+                    <p>Premium construction services with a commitment to quality, integrity, and customer satisfaction since 1998.</p>
+                    
+                    <div class="footer-payment">
+                        <p>We accept:</p>
+                        <div class="payment-methods">
+                            <i class="fab fa-cc-visa"></i>
+                            <i class="fab fa-cc-mastercard"></i>
+                            <i class="fab fa-cc-amex"></i>
+                            <i class="fab fa-cc-discover"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-col footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col footer-services">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#">Custom Home Building</a></li>
+                        <li><a href="#">Home Additions</a></li>
+                        <li><a href="#">Commercial Construction</a></li>
+                        <li><a href="#">Kitchen Remodeling</a></li>
+                        <li><a href="#">Bathroom Remodeling</a></li>
+                        <li><a href="#">Architectural Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col footer-contact">
+                    <h4>Contact Info</h4>
+                    <address>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Construction Ave, Building City, BC 12345</p>
+                        <p><i class="fas fa-phone-alt"></i> <a href="tel:+15551234567">(555) 123-4567</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:info@elitebuild.com">info@elitebuild.com</a></p>
+                    </address>
+                    
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2023 EliteBuild Construction. All Rights Reserved.</p>
+                </div>
+                
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Licenses</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/form-validation.js"></script>
+    
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
